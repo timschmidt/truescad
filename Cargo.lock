@@ -487,7 +487,6 @@ dependencies = [
 [[package]]
 name = "gtk"
 version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "cairo-rs 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1051,7 +1050,7 @@ dependencies = [
  "glib 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "glib-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "gobject-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "gtk 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gtk 0.5.0",
  "gtk-source-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "gtk-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.46 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1137,7 +1136,7 @@ dependencies = [
  "cairo-rs 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "dirs 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "gdk 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "gtk 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gtk 0.5.0",
  "kiss3d 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "kiss3ddeps 0.1.0",
  "nalgebra 0.16.13 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1252,7 +1251,6 @@ dependencies = [
 "checksum glib 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" = "7a333edf5b9f1411c246ef14e7881b087255f04c56dbef48c64a0cb039b4b340"
 "checksum glib-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "3573351e846caed9f11207b275cd67bc07f0c2c94fb628e5d7c92ca056c7882d"
 "checksum gobject-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "08475e4a08f27e6e2287005950114735ed61cec2cb8c1187682a5aec8c69b715"
-"checksum gtk 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = "56a6b30f194f09a17bb7ffa95c3ecdb405abd3b75ff981f831b1f6d18fe115ff"
 "checksum gtk-source-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "8b2d123493c306e4b9c6f1f25afc420c1d1eee05e5e1146cb7bdfa6370c550e7"
 "checksum gtk-sys 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d487d333a4b87072e6bf9f2e55befa0ebef01b9496c2e263c0f4a1ff3d6c04b1"
 "checksum hlua 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "943be6896e8b77886a45a0fbb823efa6550a17cf01a8745a8a24435c117144ea"

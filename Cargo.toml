@@ -24,6 +24,9 @@ kiss3d = "0.13"
 [dev-dependencies]
 bencher = "0.1.*"
 
+[patch.crates-io]
+gtk = { path = "gtk" }
+
 [features]
 gtk_3_10 = ["gtk/v3_10"]
 gtk_3_16 = ["gtk_3_10", "gtk/v3_16"]
