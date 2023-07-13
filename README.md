@@ -24,7 +24,9 @@ rustup run 1.37 cargo build --release
 rustup run 1.37 cargo run --release
 
 ## Usage:
+The F5 key triggers rendering of the text in the editor.
 
+## Example lua script CAD:
 ```
 cube = Box(1,1,1,0.3)
 sphere = Sphere(0.5)
